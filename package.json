@@ -1,0 +1,26 @@
+{
+  "name": "respend",
+  "version": "1.0.0",
+  "description": "respend tx with higher fee",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node respend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinpit/respend.git"
+  },
+  "author": "coinpit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinpit/respend/issues"
+  },
+  "homepage": "https://github.com/coinpit/respend#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^3.0.2",
+    "bitcoinutil": "^3.0.0",
+    "bluebird": "^3.5.0",
+    "rest.js": "^0.2.1"
+  }
+}
